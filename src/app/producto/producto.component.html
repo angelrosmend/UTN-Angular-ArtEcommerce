@@ -1,7 +1,9 @@
-<figure class="photo"> <img src={{data.image}}></figure>
+<div class="img-container">
+ <figure class="photo"> <img class="card-img-top" src={{data.image}}> </figure>
+</div>
 <div class="card-footer">
-<p>Titulo: {{data.titulo}}</p>
-<p>Medidas: {{data.medidas}}</p>
-<p>Precio: {{data.precio}}</p>
-<button routerLink="/producto/{{data.id}}">Ver detalle</button>
+<h5 class="align-self-center mb-0">{{data.titulo}}</h5>
+<p class="align-self-center">{{data.tecnica}}</p>
+<h5 className="precio align-self-center font-italic mb-0">{{data.precio}}</h5>
+<button class="btn" routerLink="/producto/{{data.id}}">Ver detalle</button>
 </div>

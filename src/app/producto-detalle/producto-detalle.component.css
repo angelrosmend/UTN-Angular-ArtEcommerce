@@ -1,0 +1,38 @@
+.card{
+ margin-top: 150px!important;
+ width: 75%;
+ margin: auto;
+}
+.info-wrapper{
+ padding: 50px 70px;
+ display: flex;
+
+}
+.img-container{
+ flex: 1;
+}
+.description{
+ flex: 1;
+ padding: 20px 50px;
+}
+.description h2{
+ font-family: 'Romanesco';
+ letter-spacing: 2px;
+}
+.description h2{
+ color: rgb(139, 1, 29);
+ text-transform: uppercase;
+}
+.photo img{
+ width: 400px;
+}
+.card-footer{
+ background: transparent;
+}
+.btn{
+ background-color: rgb(139, 1, 29);
+ color: white;
+ font-weight: bold;
+ border: 0;
+ padding: 10px 12px;
+}

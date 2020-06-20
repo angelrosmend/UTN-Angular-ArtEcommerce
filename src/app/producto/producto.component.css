@@ -1,3 +1,38 @@
+.img-container{
+ padding: 35px 50px 0px 50px;
+}
 .photo img{
- width: 250px;
+ width: 100%;
+}
+
+.img-container{
+ position: relative;
+ overflow: hidden;
+}
+.card-img-top{
+ transition: all 1s linear;
+}
+.img-container:hover .card-img-top{
+ transform: scale(1.1);
+}
+
+
+.card-footer{
+ border-top: transparent;
+ display: flex;
+ width: 100%;
+ background: transparent;
+ flex-direction: column;
+ justify-content: center;
+}
+.precio{
+ color: rgb(92, 81, 81);
+ font-weight: bolder;
+}
+.btn{
+ background-color: rgb(139, 1, 29);
+ color: white;
+ font-weight: bold;
+ border: 0;
+ padding: 10px 12px;
 }

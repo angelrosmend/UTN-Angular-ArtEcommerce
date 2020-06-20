@@ -1,6 +1,8 @@
-<h1>Login</h1>
 
-<form [formGroup]="myForm" (ngSubmit)="login()">
+<form class="base-container" [formGroup]="myForm" (ngSubmit)="login()">
+
+ <h1>Login</h1>
+ 
  <div class="form-group">
   <label for="">Email</label>
   <input type="text" formControlName="email">
