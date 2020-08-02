@@ -6,6 +6,7 @@ h1{
  font-family: 'Romanesco';
  color: rgb(139, 1, 29);
 }
+
 .product-wrapper{
  display: grid;
  grid-template-columns: repeat(3, minmax(350px, 1fr));
